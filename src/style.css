@@ -1,0 +1,46 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.container {
+  width: min(90%, 700px);
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.card {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
